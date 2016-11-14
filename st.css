@@ -1,0 +1,107 @@
+html {
+	background-image: url(seigaiha.png);
+	background-repeat: repeat;
+}
+
+body {
+	background-image: url(BA_new_icon.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.head_h1 {
+	font-size: 40px;
+	font-family: Arial, sans-serif;
+	color: #333;
+	text-align: center;
+}
+
+.h_help {
+	font-size: .5em;
+	font-style: italic;
+	color: #ccc;
+	text-align: center;
+}
+
+.d_info {
+	font-size: 16px;
+	color: #888;
+	font-family: Arial, sans-serif;
+	font-style: bold;
+	text-align: left;
+}
+
+.text {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-style: none;
+}
+
+.text_con:hover {
+	background: #eee ;
+	list-style-image: url(short_arrow_right-512.png)
+}
+
+.text_link {
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+}
+
+.text_link:hover {
+	color: #333;
+}
+
+.text_con:active {
+	text-decoration: overline;
+}
+
+a:visited {
+	color: #a9a;
+}
+
+.content {
+	font-size: 18px;
+	color: #222;
+	font-style: bold;
+	text-indent: 40px;
+	text-align: justify;
+	font-family: Arial, sans-serif;
+}
+
+.content:first-letter {
+	color: #ea3;
+	font-size: 2em;
+}
+
+.content:first-line {
+	color: #a83;
+	font-size: 1.5em;
+}
+
+.head_h2 {
+	font-family: cursive;
+	font-size: 35px;
+	text-align: justify;
+}
+
+.text_table {
+	font-size: 18px;
+	font-family: Verdana, sans-serif;
+}
+
+.header_table {
+	background: #666;
+	color: white;
+}
+
+
+.row:hover {
+	background: #ccc;
+}
+
+.last_row {
+	background: #a83;
+	color: white;
+}
